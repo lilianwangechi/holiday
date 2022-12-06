@@ -14,3 +14,4 @@ function Search({ searchTerm, onSearchChange }) {
 }
 
 export default Search;
+
