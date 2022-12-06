@@ -48,4 +48,12 @@ Plant.create!([
   }
 ])
 
+20.times do 
+  User.create!(
+    username: Faker::Internet.username,
+    email: Faker::Internet.email,
+    password: Faker::Internet.password
+  )
+  end
+
 puts '✅ Done seeding!'
